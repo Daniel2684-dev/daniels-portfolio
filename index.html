@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="icon" href="Assets/favicon.png" type="imagee/png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "12SiX67Z0lf_Zt3cA",
+      });
+   })();
+  </script>
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loading-text">Huncho<span>.</span></div>
+    <div class="loading-bar"></div>
+  </div>
+
+  <nav class="top-nav">
+    <div class="nav-logo">Huncho<span>.</span></div>
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </nav>
+
+  <aside class="vertical-nav">
+    <nav class="nav-links">
+      <a href="#home" class="nav-link active">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </a>
+      <a href="#about" class="nav-link">
+        <i class="fas fa-user"></i>
+        <span>About</span>
+      </a>
+      <a href="#skills" class="nav-link">
+          <i class="fas fa-code"></i>
+          <span>Skills</span>
+          <div class="accent-bar"></div>
+        </a>
+        <a href="#services" class="nav-link">
+          <i class="fas fa-briefcase"></i>
+          <span>Services</span>
+          <div class="accent-bar"></div>
+        </a>
+      <a href="#portfolio" class="nav-link">
+        <i class="fas fa-folder"></i>
+        <span>Portfolio</span>
+      </a>
+      <a href="#testimonials" class="nav-link">
+          <i class="fas fa-comment"></i>
+          <span>Testimonials</span>
+          <div class="accent-bar"></div>
+        </a>
+      <a href="#contact" class="nav-link">
+        <i class="fas fa-envelope"></i>
+        <span>Contact Me</span>
+      </a>
+    </nav>
+    
+    <div class="social-container">
+      <div class="social-trigger">
+        <i class="fas fa-share-alt"></i>
+      </div>
+      <div class="social-icons">
+        <a href="https://zapier.com/editor/312587336/draft/312587339/setup"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+  </aside>
+
+  <div class="mobile-nav-overlay"></div>
+
+  <main>
+        <!-- Home Section -->
+    <section id="home" class="hero-section">
+      <div class="section-header animate">
+        <h2><b>Home</b></h2>
+      </div>
+      
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>
+            Hi, I'm <span>Huncho</span>, a 
+            <span id="role-text"></span>
+          </h1>
+          <p>Creating beautiful, functional digital experiences that makes an impact.</p>
+          <a href="#portfolio" class="cta-btn slide-left">View Portfolio</a>
+        </div>
+        
+        <div class="hero-image">
+          <img src="Assets/huncho.png" alt="Huncho">
+          <div class="image-glow"></div>
+        </div>
+      </div>
+      
+      <div class="scroll-hint">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+
+        <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="section-header animate">
+        <h2><b>About Me</b></h2>
+      </div>
+
+      <div class="about-content">
+          <div class="about-image">
+            <img src="Assets/huncho.png" alt="Huncho About">
+            <button class="resume-btn">Download Resume</button>
+          </div>
+          <div class="about-details">
+            <h3>A reliable and efficient UI/UX Designer & Frontend Developer based in Lagos, Nigeria with hands-on esperience honed through personal projects and sucessful collaborations with diverse clients, i craft intuitive interfaces and seamless digital experiences. My work combines creativity, precision, and a commitment to delivering solutions that drive results and elevate brands.</h3>
+            <div class="personal-info">
+              <p><strong>NAME:</strong> Huncho</p>
+              <p><strong>DATE OF BIRTH:</strong> March 23rd, 2004</p>
+              <p><strong>ADDRESS:</strong> Lagos, Nigeria</p>
+              <p><strong>EMAIL:</strong> danielokeke2684@gmail.com</p>
+              <p><strong>PHONE:</strong> +234 702 6845 071</p>
+              <p><strong>YEARS OF EXPERIENCE:</strong> 4+ Years</p>
+            </div>
+            <div class="stats">
+              <div class="stat-item">
+                <div class="shine"></div>
+                <h4>28+</h4>
+                <p>Completed Projects</p>
+              </div>
+              <div class="stat-item">
+                <div class="shine"></div>
+                <h4>15+</h4>
+                <p>Satisfied Clients</p>
+              </div>
+              </div>
+              </section>
+
+        <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="section-header animate">
+        <h2><b>Skills</b></h2>
+      </div>
+      <p class="top-caption-description">
+        Over the past 3 years, I've developed expertise in various web technologies and design tools.
+        Below is a detailed breakdown of my core competencies and technical proficiencies.
+      </p>
+
+    <div class="skills-content"></div>      
+    <div class="middle-container">
+      <div class="skills-grid">
+        <div class="skill-item slide-left">
+          <div class="skill-name"><b>UI/UX Design</b><span>95%</span>
+          </div>
+          <p class="skill-description">
+            Crafting smooth journeys users actually enjoy.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 95%"></div>
+          </div>
+        </div>
+        <div class="skill-item slide-right">
+          <div class="skill-name"><b>Wireframing</b><span>90%</span>
+          </div>
+          <p class="skill-description">
+            Sketching raw thoughts into layout blueprints.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-item slide-left">
+          <div class="skill-name"><b>Prototyping</b><span>85%</span>
+          </div>
+          <p class="skill-description">
+            Bringing designs closer to real feed.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-item slide-right">
+          <div class="skill-name"><b>HTML/CSS</b><span>98%</span>
+          </div>
+          <p class="skill-description">
+            Styling structure into stunning visual stories.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 98%"></div>
+          </div>
+        </div>
+        <div class="skill-item slide-left">
+          <div class="skill-name"><b>JavaScript</b><span>90%</span>
+          </div>
+          <p class="skill-description">
+            Giving life to your web ideas.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-item slide-right">
+          <div class="skill-name"><b>React</b><span>50%</span>
+          </div>
+          <p class="skill-description">
+            Building smarter interfaces, one component deeper.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 50%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="lower-container flip-in">
+      <div class="lower-caption-description">
+        <h3><b>What Makes Me Unique</b></h3>
+        <p>
+          With a background in both design and development, I bridge the gap between aesthetics and functionality.
+          My approach combines technical expertise with user-centered design principles to create intuitive,
+          accessible, and performant web experiences. I specialize in translating complex requirements into
+          clean, maintainable code while ensuring the end product delivers exceptional user experiences.
+        </p>
+        <p>
+          Beyond coding, I bring strong problem-solving skills, attention to detail, and a commitment to
+          continuous learning in this rapidly evolving field.
+        </p>
+      </div>
+      </div>
+      
+      <div class="tools-content">
+      <div class="tools-title">
+        <h3><b>Tools & Technologies</b></h3>
+      <div class="tools-container">
+        <div class="tool-item">Figma</div>
+        <div class="tool-item">VS Code</div>
+        <div class="tool-item">Git/GitHub</div>
+        <div class="tool-item">HTML5</div>
+        <div class="tool-item">CSS3</div>
+        <div class="tool-item">JavaScript (ES6+)</div>
+        <div class="tool-item">OOP</div>
+        <div class="tool-item">Modular JS</div>
+        <div class="tool-item">JSON</div>
+        <div class="tool-item">Fetch API</div>
+        <div class="tool-item">LocalStorage</div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+        <!-- Services Section -->
+    <section id="services" class="services-section">
+      <div class="section-header animate">
+        <h2><b>Services</b></h2>
+      </div>
+      <p class="top-caption-description">
+        Discover a curated suite of services designed to transform your ideas into impactful digital experiences — with clarity, creativity, and precision.
+      </p>
+      </div>
+
+      <div class="services-content"></div>
+      <div class="middle-container">
+      <div class="services-grid">
+                <div class="service-container rotate-in">
+                    <div class="flipper">
+                      <div class="front">
+                        <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    </div>
+                    <div class="back">
+            <h3>UI/UX Design</h3>
+            <ul>
+              <li>Interfaces that balance form and function</li>
+              <li>Visual flow that guides user actions</li>
+              <li>Accessible, intuitive design across experiences</li>
+              <li>Designs prepped for developer handoff</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+                    
+      <div class="service-container rotate-in">
+                    <div class="flipper">
+                      <div class="front">
+                        <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    </div>
+                    <div class="back">
+            <h3>Web Development</h3>
+            <ul>
+              <li>Smooth animations with performance in mind</li>
+              <li>Fully responsive components for all screens</li>
+              <li>Clean HTML, CSS, and JavaScript structure</li>
+              <li>Code built for clarity and scale</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-container rotate-in">
+                    <div class="flipper">
+                      <div class="front">
+                        <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Design</h3>
+                    </div>
+                    <div class="back">
+            <h3>Mobile Design</h3>
+            <ul>
+              <li>Touch-friendly layouts for mobile-first experience</li>
+              <li>Clean designs across screen breakpoints</li>
+              <li>Performance-optimized assets for faster loading</li>
+              <li>Seamless interactions with native feel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-container rotate-in">
+                    <div class="flipper">
+                      <div class="front">
+                        <i class="fas fa-search"></i>
+                    <h3>UX Research</h3>
+                    </div>
+                    <div class="back">
+            <h3>UX Research</h3>
+            <ul>
+              <li>User behaviors turned into design insight</li>
+              <li>Empathy mapping for problem-focused interfaces</li>
+              <li>Data-backed testing for smarter decisions</li>
+              <li>Feedback loops that guide visual changes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-container rotate-in">
+                    <div class="flipper">
+                      <div class="front">
+                        <i class="fas fa-chart-line"></i>
+                    <h3>Brand Strategy</h3>
+                    </div>
+                    <div class="back">
+            <h3>Brand Strategies</h3>
+            <ul>
+              <li>Visual systems aligned with brand identity</li>
+              <li>Consistent UI tone across all platforms</li>
+              <li>Design that supports business growth goals</li>
+              <li>Story-driven layouts with emotional connection</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-container rotate-in">
+                    <div class="flipper">
+                      <div class="front">
+                        <i class="fas fa-pencil-ruler"></i>
+                    <h3>Prototyping</h3>
+                    </div>
+                    <div class="back">
+            <h3>Prototyping</h3>
+            <ul>
+              <li>Interactive wireframes that simulate real experience</li>
+              <li>High-fidelity screens for live previews</li>
+              <li>Visual flows tailored to user paths</li>
+              <li>Clickable mockups for fast idea testing</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+      <div class="lower-container">
+      <div class="lower-caption-description">
+        <p>Ready to bring your vision closer?</p>
+        <p>Let’s turn sketches into strategy, and strategy into scroll-stopping design</p> 
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+   <section id="portfolio" class="portfolio-section">
+      <div class="section-header animate">
+        <h2><b>Portfolio</b></h2>
+      </div>
+      <p class="top-caption-description">
+       Where design meets function — a showcase of my finest front-end work.
+      </p>
+      </div>
+
+      <div class="portfolio-content">
+      <div class="toggle-container">
+        <button class="toggle-btn active" data-target="client">Client Projects</button>
+        <button class="toggle-btn" data-target="personal">My Projects</button>
+      </div>
+    </div>
+
+    <div class="carousel-container">
+      <div class="carousel client-projects active">
+        <!-- Client projects will be added dynamically -->
+      </div>
+
+      <div class="carousel personal-projects">
+        <!-- Personal projects will be added dynamically -->
+      </div>
+    </div>
+
+    <!-- Overlay container -->
+    <div class="overlay">
+      <div class="overlay-content">
+        <button class="close-btn">&times;</button>
+        <div class="project-details">
+          <div class="detail-item"><strong>Job Type:</strong> <span class="job-type">Remote</span></div>
+          <div class="detail-item"><strong>Project:</strong> <span class="project-name">E-commerce Platform</span></div>
+          <div class="detail-item"><strong>Duration:</strong> <span class="duration">Jan–Apr 2024</span></div>
+          <div class="detail-item"><strong>Hours:</strong> <span class="hours">320</span></div>
+          <div class="detail-item"><strong>Price:</strong> <span class="price">$12,500</span></div>
+          <div class="tech-stack"></div>
+          <p class="description">Built a custom e-commerce solution with payment integration and admin dashboard.</p>
+          <ul class="features"></ul>
+          <blockquote class="testimonial">
+            "Exceptional work delivered on time with great attention to detail."
+            <cite>- TechCorp CEO</cite>
+          </blockquote>
+          <a href="https://notegpt.io/ai-story-generator" class="preview-btn">See Live Preview</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+   <section id="testimonials" class="testimonials-section">
+      <div class="section-header animate">
+        <h2><b>Testimonials</b></h2>
+      </div>
+      <p class="top-caption-description">
+        Don't just take my word for it - here's what clients have to say about working with me.
+      </p>
+
+      <div class="testimonials-content"></div>
+    <div class="testimonials-carousel">
+      <div class="track">
+        <div class="card">
+          <div class="card-inner">
+            <div class="quote-icon">"</div>
+            <p class="content"><b>"</b>He delivered exceptional results that exceeded our expectations. His strategic approach and attention to detail resulted in a 60% increase in our conversion rates within the first quarter.<b>"</b></p>
+            <div class="author">
+              <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Jessica Chen" class="avatar">
+              <div class="author-info">
+                <div class="name">Jessica Chen</div>
+                <div class="role">Director of Marketing, GrowthCo</div>
+                <div class="rating">
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-inner">
+            <div class="quote-icon">"</div>
+            <p class="content"><b>"</b>Working with Huncho on this project was a game-changer for our startup. He understood our vision immediately and executed with precision, delivering ahead of schedule while maintaining the highest quality standards. He even added by stating out compettion and how to be ahead.<b>"</b></p>
+            <div class="author">
+              <img src="https://randomuser.me/api/portraits/men/82.jpg" alt="David Rodriguez" class="avatar">
+              <div class="author-info">
+                <div class="name">David Rodriguez</div>
+                <div class="role">Founder & CEO, NexTech</div>
+                <div class="rating">
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <div class="quote-icon">"</div>
+            <p class="content"><b>"</b>Can't hide the fact that huncho was all i was looking for to make my business pop, the asthetics and look of my website screams my brand. He's the best i have come across when it comes to hiring an online help.<b>"</b></p>
+            <div class="author">
+              <img src="Assets/huncho.png" alt="David Rodriguez" class="avatar">
+              <div class="author-info">
+                <div class="name">Stephanie Amaka</div>
+                <div class="role">Founder & CEO, VESTRA</div>
+                <div class="rating">
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">☆</span>
+                  <span class="star">☆</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-inner">
+            <div class="quote-icon">"</div>
+            <p class="content"><b>"</b>Huncho's creative solutions transformed our digital presence. What impressed me most was his ability to balance innovative design with practical business objectives, resulting in measurable ROI. Staffs and i are blown away.<b>"</b></p>
+            <div class="author">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" class="avatar">
+              <div class="author-info">
+                <div class="name">Sarah Johnson</div>
+                <div class="role">VP of Product, InnovateCorp</div>
+                <div class="rating">
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">★</span>
+                  <span class="star">☆</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <button class="arrow prev">❮</button>
+      <button class="arrow next">❯</button>
+    </div>
+    
+    <div class="controls">
+      <div class="dot active" data-index="0"></div>
+      <div class="dot" data-index="1"></div>
+      <div class="dot" data-index="2"></div>
+    </div>
+
+    <div class="lower-container">
+      <div class="lower-caption-description">
+        <p>Your feedback feuls my passion to keep creating and improving every experience.</p>
+        <p>Every story shared here drives me to design with purpose, build and make a real difference. Thankyou for sharing your stories and inspiring the work ahead.</p>
+      </div>
+    </div>
+  </div>
+    </section>
+
+  <!-- contact Section -->
+   <section id="contact" class="contact-section">
+      <div class="section-header animate">
+        <h2><b>Contact Me</b></h2>
+      </div>
+
+    <div class="contact-container">
+    <div class="intro-section">
+      <h1>Let's Talk About Your Next Project</h1>
+      <p class="tagline">Reach out for creative, thoughtful solutions tailored to your goals. Design, code, or strategy I’m here to help bring it to life.</p>
+      
+      <div class="contact-info">
+        <div class="info-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h3>Location</h3>
+            <p>Lagos, Nigeria<br>Creative City</p>
+          </div>
+        </div>
+        
+        <div class="info-card">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h3>Phone</h3>
+            <p>+234 702 6845 071</p>
+          </div>
+        </div>
+        
+        <div class="info-card">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h3>Email</h3>
+            <p>danielokeke2684@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" name="user_name" id="name" placeholder="Your Name" required>
+      </div>
+      
+      <div class="form-group">
+        <input type="email" name="user_email" id="email" placeholder="Email Address" required>
+      </div>
+      
+      <div class="form-group">
+        <input type="tel" name="user_phone" id="phone" placeholder="Phone Number">
+      </div>
+      
+      <div class="form-group">
+        <select name="user_subject" id="subject" required>
+          <option value="" disabled selected>Subject</option>
+          <option value="Web Development">Web Development</option>
+          <option value="UI/UX Design">UI/UX Design</option>
+          <option value="Prototyping">Prototyping</option>
+          <option value="Brand Strategy">Brand Strategy</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+      </div>
+      
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+  </section>
+
+  <!-- Footer -->
+      <div class="section-header animate">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <h1>Huncho<span>.</span></h1>
+                </div>
+                <p>&copy; 2025 Huncho. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div> 
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
